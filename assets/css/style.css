@@ -21,6 +21,17 @@
 .nav-pills>li>a:hover{
     background-color:#346270;
 }
-.navbar-inverse{
+.navbar-inverse {
+background-color: #222;
+    border-color: #080808;
+    padding: 1%;
+}
 
+@media (max-width: 767px) {
+    .nav-pills li{
+        float: none;
+    }
+    .nav-pills {
+        text-align: center;
+    }
 }
