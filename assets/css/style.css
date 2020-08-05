@@ -53,6 +53,25 @@ html, body{
 .margin-8{
     margin-top: 8%;
 }
+.panel{
+    border:none;
+}
+.panel-body{
+    background-color: #f9f9f9;
+}
+.panel-info .panel-heading{
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+.sidebar-header{
+font-size: 120%;
+    tab-interval: 2px;
+}
+.form-control{
+    font-size: 70%;
+    border-radius: 0px;
+}
 
 footer{
     background-color: #0f0f0f;
